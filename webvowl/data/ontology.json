@@ -1,0 +1,1523 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "https://saref.etsi.org/core", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/orangeinnovation/IoTF" ],
+    "title" : {
+      "undefined" : "IoT Failure ontology"
+    },
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "version" : "0.0.1",
+    "description" : {
+      "undefined" : "IoT-F reprensents failures of IoT systems."
+    },
+    "other" : {
+      "versionIRI" : [ {
+        "identifier" : "versionIRI",
+        "language" : "undefined",
+        "value" : "http://www.semanticweb.org/orangeinnovation/IoTF/0.0.1",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.0.1",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "IoT Failure ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#FailureCause",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FailureCause"
+    },
+    "subClasses" : [ "6", "7", "2", "8", "9" ],
+    "comment" : {
+      "undefined" : "denotes the cause of a failure."
+    },
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#FailureMode",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FailureMode"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HighVarianceLighBulbXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "HighVarianceLighBulbXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#FailureSmartThingsHub",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "FailureSmartThingsHub"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#StuckAtMotionSensor",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "StuckAtMotionSensor"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HighVarianceSmokeSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "annotations" : {
+        "BatteryLevel" : [ {
+          "identifier" : "BatteryLevel",
+          "language" : "undefined",
+          "value" : "203",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "HighVarianceSmokeSensorXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#ConnectivityMotionSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "annotations" : {
+        "O" : [ {
+          "identifier" : "O",
+          "language" : "undefined",
+          "value" : "1000",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ConnectivityMotionSensorXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#SpikeTempSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "SpikeTempSensorXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HighVarianceAlarmXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "HighVarianceAlarmXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HighVarianceTempSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "annotations" : {
+        "CPUUsage" : [ {
+          "identifier" : "CPUUsage",
+          "language" : "undefined",
+          "value" : "1000",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "HighVarianceTempSensorXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HighVarianceLeakDetectorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "annotations" : {
+        "O" : [ {
+          "identifier" : "O",
+          "language" : "undefined",
+          "value" : "1000",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "HighVarianceLeakDetectorXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#StuckAtSmokeSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "annotations" : {
+        "MemoryUsage" : [ {
+          "identifier" : "MemoryUsage",
+          "language" : "undefined",
+          "value" : "1005",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "StuckAtSmokeSensorXM"
+      }
+    } ],
+    "subClasses" : [ "17", "24", "22" ],
+    "comment" : {
+      "undefined" : "a form of a dysfunction related to an IoTdevice."
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#Omission",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Omission"
+    },
+    "id" : "36",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#Spike",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Spike"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#SpikeTempSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "SpikeTempSensorXM"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A spike fault happens when there is a rapid increase or decrease in the device state."
+    },
+    "id" : "37",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#CPUUsage",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CPUUsage"
+    },
+    "id" : "38",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#NFCFault",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NFCFault"
+    },
+    "id" : "29",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#UserInterfaceFault",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UserInterfaceFault"
+    },
+    "id" : "13",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#Timing",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Timing"
+    },
+    "id" : "44",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#DeviceType",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DeviceType"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#LightBulbXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "LightBulbXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#SmartThingsHub",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "SmartThingsHub"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#MotionSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "MotionSensorXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#LeakDetectorMX",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "LeakDetectorMX"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#SmokeSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "SmokeSensorXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#TempSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "TempSensorXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#AlarmXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "AlarmXM"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "denotes a type of a market IoT device e.g., FIBARO light bulb."
+    },
+    "id" : "27"
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#ConnectivityFailure",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConnectivityFailure"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#ConnectivityFailureMotionSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "ConnectivityFailureMotionSensorXM"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "represents failure cause related to the connectivity."
+    },
+    "id" : "8",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#NonVolatileMemoryError",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonVolatileMemoryError"
+    },
+    "id" : "55",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#TotalOperationalTime",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TotalOperationalTime"
+    },
+    "id" : "43",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#SoftwareVersion",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoftwareVersion"
+    },
+    "id" : "41",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#AudioOutputFault",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AudioOutputFault"
+    },
+    "id" : "15",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#RecoveryAction",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RecoveryAction"
+    },
+    "subClasses" : [ "75", "74", "71", "66" ],
+    "comment" : {
+      "undefined" : "denotes actions that allows recovering a device from a given failure."
+    },
+    "id" : "67"
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#BatteryLevel",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BatteryLevel"
+    },
+    "id" : "60",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#SoftwareRestart",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoftwareRestart"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#SoftwareRestartAlarmXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "SoftwareRestartAlarmXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#SoftwareRestartSmokeSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "SoftwareRestartSmokeSensorXM"
+      }
+    } ],
+    "id" : "74",
+    "superClasses" : [ "67" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#MemoryUsage",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MemoryUsage"
+    },
+    "id" : "77",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HardwareRestart",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HardwareRestart"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HardwareRestartTempSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "HardwareRestartTempSensorXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HardwareRestartMotionSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "HardwareRestartMotionSensorXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HardwareRestartSmokeSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "HardwareRestartSmokeSensorXM"
+      }
+    } ],
+    "id" : "75",
+    "superClasses" : [ "67" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#VisualDisplayFault",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VisualDisplayFault"
+    },
+    "id" : "86",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#PowerFailure",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PowerFailure"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#PowerFailureMotionSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "PowerFailureMotionSensorXM"
+      }
+    } ],
+    "subClasses" : [ "64", "69" ],
+    "comment" : {
+      "undefined" : "reprensents failure cause related to power e.g, battery level."
+    },
+    "id" : "9",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#FailStop",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FailStop"
+    },
+    "comment" : {
+      "undefined" : "happens when a device stops functioning and is un-responsive to external requests."
+    },
+    "id" : "22",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#FailureEffect",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FailureEffect"
+    },
+    "comment" : {
+      "undefined" : "represents the effects of a failure mode."
+    },
+    "id" : "62"
+  }, {
+    "iri" : "https://saref.etsi.org/core/Measurement",
+    "baseIri" : "https://saref.etsi.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Measurement"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#Temperature",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Temperature"
+    },
+    "id" : "58",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#CommunicationFailure",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CommunicationFailure"
+    },
+    "subClasses" : [ "36", "44" ],
+    "id" : "17",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#Outlier",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Outlier"
+    },
+    "comment" : {
+      "undefined" : "an outlier failure occurs when a device to report an incorrect state for a very brief period, usually theduration of just 1 poll."
+    },
+    "id" : "83",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#UpTime",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UpTime"
+    },
+    "id" : "48",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#SoftwareUpdate",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoftwareUpdate"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#SoftwareUpdateTempSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "SoftwareUpdateTempSensorXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#SoftwareUpdateSmartThingsHub",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "SoftwareUpdateSmartThingsHub"
+      }
+    } ],
+    "id" : "66",
+    "superClasses" : [ "67" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#CellularFault",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CellularFault"
+    },
+    "id" : "33",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HighVariance",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HighVariance"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HighVarianceLighBulbXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "HighVarianceLighBulbXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HighVarianceSmokeSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "annotations" : {
+        "BatteryLevel" : [ {
+          "identifier" : "BatteryLevel",
+          "language" : "undefined",
+          "value" : "203",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "HighVarianceSmokeSensorXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HighVarianceAlarmXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "HighVarianceAlarmXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HighVarianceLeakDetectorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "annotations" : {
+        "O" : [ {
+          "identifier" : "O",
+          "language" : "undefined",
+          "value" : "1000",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "HighVarianceLeakDetectorXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HighVarianceTempSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "annotations" : {
+        "CPUUsage" : [ {
+          "identifier" : "CPUUsage",
+          "language" : "undefined",
+          "value" : "1000",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "HighVarianceTempSensorXM"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A high variance failure appears when a device’s state fluctuates back and forth more rapidly than the environment dictates."
+    },
+    "id" : "90",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#Symptom",
+    "equivalent" : [ "92" ],
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Symptom"
+    },
+    "subClasses" : [ "93", "77", "38", "60", "58", "50", "48", "54", "52", "43", "41" ],
+    "attributes" : [ "equivalent" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#RadioFault",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RadioFault"
+    },
+    "subClasses" : [ "46", "31", "29", "35", "33", "19" ],
+    "id" : "20",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#BatteryFluctuation",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BatteryFluctuation"
+    },
+    "id" : "69",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#EthernetFault",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EthernetFault"
+    },
+    "id" : "31",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#SoftwareFailure",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoftwareFailure"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#SoftwareFailureSmartThingsHub",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "SoftwareFailureSmartThingsHub"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#FirmwareFailureLeakDetectionXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "FirmwareFailureLeakDetectionXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#SoftwareFailureTempSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "SoftwareFailureTempSensorXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#SoftwareFailureSmokeSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "SoftwareFailureSmokeSensorXM"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "represents failure cause related to software."
+    },
+    "id" : "7",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#ThreadFault",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ThreadFault"
+    },
+    "id" : "46",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HardwareFailure",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HardwareFailure"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HardwareFailureTempSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "HardwareFailureTempSensorXM"
+      }
+    } ],
+    "subClasses" : [ "15", "13", "1", "20", "55", "86" ],
+    "comment" : {
+      "undefined" : "represents failure cause related to the hardware."
+    },
+    "id" : "2",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#NetworkI/O",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NetworkI/O"
+    },
+    "id" : "50",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#RebootCount",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RebootCount"
+    },
+    "id" : "52",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#StuckAt",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StuckAt"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#StuckAtMotionSensor",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "StuckAtMotionSensor"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#StuckAtSmokeSensorXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "annotations" : {
+        "MemoryUsage" : [ {
+          "identifier" : "MemoryUsage",
+          "language" : "undefined",
+          "value" : "1005",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "StuckAtSmokeSensorXM"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A stuck-at failure happens when a device cannot change state, maintaining the same state despite changes in environment or actuation commands."
+    },
+    "id" : "81",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#HardwareVersion",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HardwareVersion"
+    },
+    "id" : "93",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#LowBattery",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LowBattery"
+    },
+    "id" : "64",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#PowerSource",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PowerSource"
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#NonFailStop",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonFailStop"
+    },
+    "subClasses" : [ "90", "81", "37", "85", "83" ],
+    "comment" : {
+      "undefined" : "failure relate to a response by the device that diverges from the desired device state."
+    },
+    "id" : "24",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#BLEFault",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BLEFault"
+    },
+    "id" : "35",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#FirmwareVersion",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FirmwareVersion"
+    },
+    "id" : "54",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#WIFIFault",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WIFIFault"
+    },
+    "id" : "19",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "https://saref.etsi.org/core/Device",
+    "baseIri" : "https://saref.etsi.org/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Device"
+    },
+    "attributes" : [ "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#Calibration",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Calibration"
+    },
+    "comment" : {
+      "undefined" : "happens when sensor data may have offset or have a different gain from the ground truth values."
+    },
+    "id" : "85",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#Environnment",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Environnment"
+    },
+    "comment" : {
+      "undefined" : "represents failure cause related to the environment."
+    },
+    "id" : "6",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#FirmwareUpdate",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FirmwareUpdate"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#FirmwareUpdateLeakDetectionXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "FirmwareUpdateLeakDetectionXM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#FirmwareUpdateLightBulbXM",
+      "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+      "labels" : {
+        "IRI-based" : "FirmwareUpdateLightBulbXM"
+      }
+    } ],
+    "id" : "71",
+    "superClasses" : [ "67" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#becauseOf",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "becauseOf"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#hasFailureCode",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasFailureCode"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "10"
+  }, {
+    "range" : "2",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "range" : "2",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "4",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "20",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "4",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "4",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#hasDeviceType",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "hasDeviceType"
+    },
+    "domain" : "26",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "range" : "20",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "20",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "20",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "20",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "range" : "39",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "39",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "20",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "39",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "39",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "range" : "39",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "39",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "39",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "39",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "39",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#producesEffect",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "producesEffect"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "range" : "9",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "67",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "9",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "67",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#happensAt",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "happensAt"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "72"
+  }, {
+    "range" : "67",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#hasRecoveryAction",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "hasRecoveryAction"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "76"
+  }, {
+    "range" : "67",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "24",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "range" : "24",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "24",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "24",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "2",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "87"
+  }, {
+    "range" : "2",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "24",
+    "domain" : "90",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "89"
+  }, {
+    "range" : "2",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#isCausedBy",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "isCausedBy"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "94"
+  }, {
+    "range" : "17",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
+  }, {
+    "range" : "5",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "range" : "5",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "98"
+  }, {
+    "range" : "5",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "range" : "5",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "range" : "39",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
+  }, {
+    "range" : "39",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "range" : "17",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.semanticweb.org/orangeinnovation/IoTF#effectIs",
+    "baseIri" : "http://www.semanticweb.org/orangeinnovation/IoTF",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "effectIs"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "104"
+  } ]
+}
